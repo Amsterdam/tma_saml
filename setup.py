@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(name='tma_saml',
-      version='0.4.2',
+      version='0.4.3',
       description='TMA SAML processing package',
-      url='https://git.data.amsterdam.nl/datapunt/tma_saml',
+      url='https://github.com/Amsterdam/tma_saml/',
       author='DataPunt',
-      author_email='datapunt.ois@amsterdam.nl',
+      author_email='datapunt@amsterdam.nl',
       license='MIT',
       packages=['tma_saml', 'tma_saml.for_tests'],
       install_requires=[
